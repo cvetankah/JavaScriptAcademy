@@ -1,0 +1,88 @@
+body {
+    /* background-color: burlywood; */
+    /* margin: 100px; */
+}
+
+h2 {
+    /* background-color: red; */
+    display: inline;
+    display: inline-block;
+    /* margin: 50px; */
+    margin: 10px 50px;
+    /* margin: 40px 50px 10px 10px; */
+    /* margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    margin-right: 120px; */
+}
+.left { 
+    float: left;
+}
+.right {
+    float: right;
+}
+a{
+    background-color: royalblue;
+    color: white;
+    margin: 50px 30px;
+    display: inline-block;
+    font-size: 30px;
+    background-position: center;
+}
+
+.cube{
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+    display: block;
+    margin: 50px 0px;
+    padding: 50px 30px 40px 20px;
+}
+
+#red{
+    background-color: red;
+    /* padding-top: 50px; */
+}
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.teacher{
+    background-color: brown;
+    float: right;
+}
+
+.student{
+    background-color: cadetblue;
+    float: left;
+}
+
+.one{
+    padding:30px 5px;
+}
+
+.content-block{
+    border: 1px solid #707070; 
+    border-radius: 10px;
+    margin: 45px;
+    padding: 43px 40px 55px 12px;
+    box-shadow: 5px 5px 10px 0px;
+    width: 250px;
+}
+
+.content-block img {
+    height: 95px;
+}
+
+.content-block h2{
+        margin: 35px 0px 45px 0px;
+        font-size: 34;
+        line-height: 38px;
+}
+.content-block p{
+    line-height: 33px;
+}

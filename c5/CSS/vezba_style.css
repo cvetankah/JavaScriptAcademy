@@ -1,0 +1,29 @@
+body {
+    color: rosybrown;
+}
+h2 {
+    background-image: url(../Images/flowers_1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    text-align: left top;
+}
+
+#BG-center {
+    background-image: url(../Images/watercolor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#BG-right-corner {
+    background-image: url(../Images/washi.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    text-align: right;
+}
+
+#BG-everywhere {
+    background-image: url(../Images/45degreee_fabric.png);
+    background-repeat: repeat;
+    text-align: justify;
+}

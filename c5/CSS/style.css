@@ -1,0 +1,99 @@
+body {
+    /* background-color: red; */
+    background-image: url("../Images/backgorund.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: cover contain;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#hello-title {
+    color: maroon;
+    font-size: 60px;
+    text-decoration: line-through;
+}
+
+.another-title {
+    color: lightcoral;
+    font-size: 70px;
+    text-decoration: overline;
+}
+
+p {
+    color: chocolate;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 40px;
+    letter-spacing: 10px;
+}
+h4{
+    font-size: 30px;
+    font-style: italic;
+    color: coral;
+    font-weight: ;
+}
+
+
+h2 {
+    font-size: 30px;
+    color: lightgreen;
+    font-style: italic;
+}
+
+#second_title {
+    font-size: 40px;
+    color: lightskyblue;
+    font-style: inherit;
+}
+
+#Third_title {
+    font-size: 50px;
+    color: maroon;
+    font-style: inherit;
+}
+
+#Title_number_four {
+    font-size: 60px;
+    color: lightcoral;
+    font-style: unset;
+}
+
+p {
+    color: lavenderblush;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 10px;
+}
+
+.second-p {
+    color: lightcoral;
+    font-style: oblique;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+.third-p {
+    color: lightpink;
+    font-style: inherit;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 14px;
+}
+
+.forth-p {
+    color: khaki;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 16px;
+}
