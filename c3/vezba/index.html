@@ -1,0 +1,90 @@
+o<!DOCTYPE html>
+<head>
+    <title>Job details</title>
+</head>
+<body>
+    <h1>Job details</h1>
+    <table border="1" cellspacing="5" cellpadding='10'>
+        <form>
+            <thead>
+                <tr>
+                    <th><label>Job title</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                        <th>><label>Description</label></th>
+                        <td colspan="4"><textarea cols="10" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <th><label>Company name</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th><label>Contact number</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th><label>Contact person</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th><label>E-mail</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th><label>Work status</label></th>
+                    <td><label>Full time</label>
+                    <input type="checkbox" id="Full time"></td>
+                    <td><label>Part time</label>
+                    <input type="checkbox" id="Part time"></td>
+                    <td><label>Per Dim</label>
+                    <input type="checkbox" id="Per Dim"></td>
+                    <td><label>Others</label>
+                    <input type="checkbox" id="Others"></td>
+                </tr>
+                <tr>
+                    <th><label>Salary</label></th>
+                    <td colspan="4"><input type="text">
+                        <select>
+                            <option value="US dollar">US dollar</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Pound">Pound</option>
+                            <option value="Indian rupee">Indian rupee</option>
+                        </select>
+                        <select>
+                            <option value="Yearly">Yearly</option>
+                            <option value="Monthly">Monthly</option>
+                            <option value="In two weeks">In two weeks</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label>Experience (Years)</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th><label>Locations</label></th>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Qualifications</label></td>
+                    <td colspan="4">
+                        <select multiple="true">
+                            <option value="Any">Any</option>
+                            <option value="High school">High school</option>
+                            <option value="Associate">Associate</option>
+                            <option value="Pre-Bachelors">Pre-Bachelors</option>
+                        </select>
+                        <button type="ADD">ADD</button>
+                        <button type="REMOVE">REMOVE</button>
+                        <input type="text" id="Any" name="Any" placeholder="Any"></td>
+                </tr>
+                <tr>
+                    <td><button type="SUBMIT">SUBMIT</button></td>
+                    <td colspan="4"><button type="RESET">RESET</button></td>
+                </tr>
+
+            </thead>
+
+        </form>
+    
