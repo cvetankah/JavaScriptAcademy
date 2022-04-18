@@ -31,7 +31,7 @@ h1{
 
 .body_container {
     display: block;
-    padding: 0;
+    padding: 0px;
 }
 
 .left{
@@ -46,16 +46,26 @@ h1{
     background-color: gray;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 50px 60px;
+    padding: 50px 82px;
+    margin-left: 5px;
 }
-.footer{
+
+.footer {
     background-color: gray;
     text-align: center;
     padding: 10px 50px;
     margin-top: 5px;
-    margin-bottom: 5px;
     font-size: 25px;
 }
 
+.table_one{
+    display: inline-block;
+    float: left;
+}
+
+.table_two{
+    display: inline-block;
+    float: right;
+}
 
 
