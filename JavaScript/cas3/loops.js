@@ -28,4 +28,4 @@ for (let brojac = 1; brojac <= 100; brojac++) {
     console.log(brojac)
 }
 
-console.log("Done!")
+console.log("Done!") 

@@ -7,7 +7,7 @@ const operation = prompt('Insert valid operation: +; -; *; /; %')
 
 // const operation = "+" 
 
-if (!broj1 || !broj2) {
+if (!broj1 || !broj2 && 0) {
     console.error('Invalid number')
 } else {
     let rezultat

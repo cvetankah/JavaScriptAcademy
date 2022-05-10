@@ -14,8 +14,9 @@ const friends = [
     "Simona", //1
     "Petar", //2
     "Sanja", //3
-    "Angela" //4
-    // "Gjorgji"
+    "Angela", //4
+    "Gjorgji",
+    "Marko",
 ]
 
 for (let index = 0; index < friends.length; index++) {
