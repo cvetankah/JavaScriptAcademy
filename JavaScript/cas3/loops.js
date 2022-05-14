@@ -29,3 +29,9 @@ for (let brojac = 1; brojac <= 100; brojac++) {
 }
 
 console.log("Done!") 
+
+let text = "The number is"
+
+for (i = 0; i < 5; i++) {
+    console.log(text + ' ' + i)
+}
