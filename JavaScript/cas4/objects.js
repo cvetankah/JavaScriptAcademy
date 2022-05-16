@@ -31,41 +31,41 @@
 // }
 
 // Kvadrat.plostina = Kvadrat.sirina * Kvadrat.dolzina
-// console.log(Kvadrat)
+//     console.log(Kvadrat)
 
-const books = [
-    {
-        name: 'Harry Potter',
-        author: 'J. K. Rowling',
-        year: '2000',
-        read: false
-    },
-    {
-        name: 'Crime and punishment',
-        author: 'Fydor Doestoevsky',
-        year: '1887',
-        read: true
-    },
-    {
-        name: 'The art of war',
-        author: 'San Tzu',
-        year: '200',
-        read: false
-    },
-    {
-        name: 'The Hobbit',
-        author: 'J.R.R. Tolkein',
-        year: '1910',
-        read: true
-    }
-]
+// const books = [
+//     {
+//         name: 'Harry Potter',
+//         author: 'J. K. Rowling',
+//         year: '2000',
+//         read: false
+//     },
+//     {
+//         name: 'Crime and punishment',
+//         author: 'Fyodor Doestoevsky',
+//         year: '1887',
+//         read: true
+//     },
+//     {
+//         name: 'The art of war',
+//         author: 'San Tzu',
+//         year: '200',
+//         read: false
+//     },
+//     {
+//         name: 'The Hobbit',
+//         author: 'J.R.R. Tolkein',
+//         year: '1910',
+//         read: true
+//     }
+// ]
 
-for (let book of books) {
-// ISTO SO - for (let i = 0; i < boks.lenth; i++) {let book = books[i]}
-(book.read) && console.log(book.name) // shorhand za if clause
-}  
+// for (let book of books) {
+// // ISTO SO - for (let i = 0; i < boks.lenth; i++) {let book = books[i]}
+// (book.read) && console.log(book.name + ' ' + 'by' + ' ' + book.author) // shorhand za if clause
+// }  
 
-// books.forEach(functuion {book})
+// // books.forEach(functuion, {book})
 
 let avgMath = 0
 let avgPhysics = 0

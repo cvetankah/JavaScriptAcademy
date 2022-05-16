@@ -21,22 +21,20 @@ const books = [
     }
 ]
 
-for (let book of books) {
-    // ISTO SO - for (let i = 0; i < boks.lenth; i++) {let book = books[i]}
-    (book.read) && console.log(book.name) // shorhand za if clause
-    } 
-
-const value = booksIHaveRead
-
-const changeText = () => {
-    // DOM object
-    const element = document.getElementById('title')
-    element.textContent = element.textContent + "Books I have read"
+const listOfBooksILike = () => {
+    const information = document.getElementById('book_information')
     const list = document.createElement("ul")
+    information.appendChild(list)
 
-const listItem = document.createElement("li")
-listItem.textContent = "Books I have read"
-
-list.appendChild(listItem)
-element.appendChild(list)
+    for (const book of books) {
+        const listItem = document.createElement("li")
+        listItem.textContent = ` ${book.name} (${book.year}) by (${book.author})`
+        list.appendChild(listItem)
+    }
+    
 }
+
+listOfBooksILike()
+
+
+

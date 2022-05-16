@@ -2,17 +2,20 @@
 function helloWorld (parametar1, parametar2) {
     //funkciite primaat parametri kako promenlivi definirani vo malie zagradi
     // function body (telo na funkcijata sto go sodrzi kodot)
-    alert(parametar1 + parametar2)
+    const zbir = parametar1 + parametar2
+    // alert(zbir);
+    // alert('Hello world!')
 
-    return "My first function exercise"
+    return zbir
 }
 
-//povik
-//tuka se definiraat vrednostite na parametrite
-//parametrite sto se visok se ignoriraat
+// povik
+// tuka se definiraat vrednostite na parametrite
+// parametrite sto se visok se ignoriraat
 // helloWorld(12, 13, 45, 5, 6)
 
 const value = helloWorld(12, 13)
+// //arrow function:
 
 const changeText = () => {
     // DOM object
