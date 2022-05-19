@@ -22,9 +22,9 @@ console.log("Minimum is" + ' ' + low)
 
 // const temp = [12, 15, 14, 20, 22, 30]
 
-// let sum = [0]
-// let minTemp = [0]
-// let maxTemp = [0]
+// let sum = temp[0]
+// let minTemp = temp[0]
+// let maxTemp = temp[0]
 
 // for (let i = 0; i < temp.length; i++) {
 //     sum += temp[i] 

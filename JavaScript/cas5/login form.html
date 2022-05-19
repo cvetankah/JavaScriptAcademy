@@ -5,10 +5,12 @@
     </head>
 
     <body>
-        <h1 id="title">Log - in</h1>
+        <h1 id="title">Log in</h1>
         <form>
-            <input type="text" name="username" id="username">
-            <input type="password" name="password" id="password">
+            <input id="username" name="username"  type="text" oninput="usernameChanged(this.value)">
+            <input id="password" name="password" type="password">
+
+            <!-- <input id="submit" type="submit"> -->
 
         </form>
 

@@ -72,3 +72,10 @@ const addAdnimals = () => {
     localStorage.setItem('animals', JSON.stringify(animals))
 }
 
+function search (value) {
+  console.log("search works" + value)
+}
+
+function reset () {
+    console.log("reset works")
+}

@@ -1,9 +1,16 @@
 
-function onsubmit () {
-    event.preventDefault()
-    const username = document.getElementsById('username').value
-    const password = document.getElementsById('password')
+// const sumbmitBtn = document.getElementById('submit')
+// .addEventListener("onsubmit", (event) => {onsubmit (event)})
 
-    console.log(username, password)
+function onSubmit () {
+    const username = document.getElementById('username')
+    const password = document.getElementById('password')
 
+    console.log(username.value, password.value)
+    username.value = ''
+    password.value = ''
+}
+
+const usernameChanged = (value) => {
+    console.log(value)
 }
